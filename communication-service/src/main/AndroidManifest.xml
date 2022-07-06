@@ -1,0 +1,25 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.laogao.communication_service" >
+
+
+
+
+
+    <application
+        >
+
+
+
+
+        <service android:name=".CommunicationService" android:exported="true">
+
+            <intent-filter>
+                <action android:name="com.example.laogao.action.COMM_SERVICE"/>
+            </intent-filter>
+
+        </service>
+
+
+    </application>
+
+</manifest>

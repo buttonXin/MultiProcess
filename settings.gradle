@@ -1,0 +1,6 @@
+rootProject.name='TwoWayCommunication'
+include ':app'
+include ':communication-sdk'
+include ':communication-service'
+include ':account-info'
+include ':payment-info'
